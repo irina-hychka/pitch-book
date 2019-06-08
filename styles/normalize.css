@@ -41,6 +41,12 @@
     font-size: 2em;
     margin: 0.67em 0;
   }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
   
   /* Grouping content
      ========================================================================== */
@@ -346,4 +352,11 @@
   
   [hidden] {
     display: none;
+  }
+
+  #prewie-submenu--bar {
+    display: none;
+  }
+  .menu-link:hover + #prewie-submenu--bar {
+    display: flex;
   }
