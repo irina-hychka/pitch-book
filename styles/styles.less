@@ -458,7 +458,16 @@ button {
 .tabs-item:hover,
 .tabs-item:focus {
     cursor: pointer;
-    background-color: @orange-color;
+    opacity: .8;
+}
+
+.tab-contnent--wrap {
+    display: none;
+    justify-content: space-around;
+}
+
+.tab-contnent--wrap.active {
+    display: flex;
 }
 
 .tab-contnent {
