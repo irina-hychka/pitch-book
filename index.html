@@ -9,9 +9,11 @@
         content="PitchBook provides professionals in the M&A, PE and VC industries with the data and tools to make more informed business decisions. Find the right product for your needs.">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:300,400&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="styles/normalize.css?v=1.0">
-    <link rel="stylesheet/less" type="text/css" href="styles/styles.less" />
-    <script src="javascript/less.min.js" type="text/javascript"></script>
+    <!-- <link rel="stylesheet" href="styles/normalize.css?v=1.0"> -->
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/responsive.css" />
+    <!-- <script src="javascript/less.min.js" type="text/javascript"></script> -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 </head>
@@ -25,6 +27,98 @@
                 <ul class="menu-list">
                     <li class="menu-item">
                         <a class="menu-link active" href="#" title="features">Features</a>
+                        <div class="submenu-bar">
+                            <ul class="menu-preview">
+                                <li class="preview-item">
+                                    <a class="preview-link" href="#" title="About us">
+                                        <p>About us</p>
+                                        <div class="page-preview">
+                                            <img src="./assets/feature2.jpg" alt="about">
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="preview-item">
+                                    <a class="preview-link" href="#" title="Our partners">
+                                        <p>Our partners</p>
+                                        <div class="page-preview">
+                                            <img src="./assets/feature2.jpg" alt="partners">
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="preview-item">
+                                    <a class="preview-link" href="#" title="Careers">
+                                        <p>Careers</p>
+                                        <div class="page-preview">
+                                            <img src="./assets/feature2.jpg" alt="careers">
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="preview-item">
+                                    <a class="preview-link" href="#" title="Contact us">
+                                        <p>Contact us</p>
+                                        <div class="page-preview">
+                                            <img src="./assets/feature2.jpg" alt="contacts">
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="submenu-wrap">
+                                <ul class="submenu">
+                                    <li class="submenu-item">
+                                        <a class="submenu-link" href="#" title="Product">Product</a>
+                                    </li>
+                                    <li class="submenu-item">
+                                        <a class="submenu-link" href="#" title="API and Datafeed">API and Datafeed</a>
+                                    </li>
+                                    <li class="submenu-item">
+                                        <a class="submenu-link" href="#" title="Platform">Platform</a>
+                                    </li>
+                                    <li class="submenu-item">
+                                        <a class="submenu-link" href="#" title="Mobile">Mobile</a>
+                                    </li>
+                    
+                                    <li class="submenu-item">
+                                        <a class="submenu-link" href="#" title="News & Analyses">News & Analyses</a>
+                                    </li>
+                                    <li class="submenu-item">
+                                        <a class="submenu-link" href="#" title="Reports">Reports</a>
+                                    </li>
+                                    <li class="submenu-item">
+                                        <a class="submenu-link" href="#" title="Videos">Videos</a>
+                                    </li>
+                                    <li class="submenu-item">
+                                        <a class="submenu-link" href="#" title="Subscribe to N&B">Subscribe to N&B</a>
+                                    </li>
+                    
+                    
+                                    <li class="submenu-item">
+                                        <a class="submenu-link" href="#" title="News & Analyses">News & Analyses</a>
+                                    </li>
+                                    <li class="submenu-item">
+                                        <a class="submenu-link" href="#" title="Reports">Reports</a>
+                                    </li>
+                                    <li class="submenu-item">
+                                        <a class="submenu-link" href="#" title="Videos">Videos</a>
+                                    </li>
+                                    <li class="submenu-item">
+                                        <a class="submenu-link" href="#" title="Subscribe to N&B">Subscribe to N&B</a>
+                                    </li>
+                    
+                                    <li class="submenu-item">
+                                        <a class="submenu-link" href="#" title="News & Analyses">News & Analyses</a>
+                                    </li>
+                                    <li class="submenu-item">
+                                        <a class="submenu-link" href="#" title="Reports">Reports</a>
+                                    </li>
+                                    <li class="submenu-item">
+                                        <a class="submenu-link" href="#" title="Videos">Videos</a>
+                                    </li>
+                                    <li class="submenu-item">
+                                        <a class="submenu-link" href="#" title="Subscribe to N&B">Subscribe to N&B</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </li>
                     <li class="menu-item">
                         <a class="menu-link" href="#" title="about">About</a>
@@ -146,10 +240,10 @@
             <h2 class="signup-title secondary-title">Try Your <span class="orange-color">FREE</span> Trial Today</h2>
             <form>
                 <div class="signup-input--container">
-                    <input class="input signup-input no-border" type="text" name="name" placeholder="Name">
-                    <input class="input signup-input no-border" type="email" name="email" placeholder="Email">
-                    <input class="input signup-input no-border last-child" type="password" name="password"
-                        placeholder="Password">
+                    <input class="input signup-input border-bottom" type="text" name="name" placeholder="Name" autocomplete="off">
+                    <input class="input signup-input border-bottom" type="email" name="email" placeholder="Email" autocomplete="off">
+                    <input class="input signup-input border-bottom last-child" type="password" name="password"
+                        placeholder="Password" autocomplete="off">
                 </div>
                 <button type="button" class="btn block-btn no-border" name="signup-submit" title="Signup">Get
                     Started</button>
@@ -187,7 +281,7 @@
         </ul>
     </section>
 
-    <section class="section primary-section picture-section">
+    <section class="section primary-section tabs-section">
         <ul class="tabs">
             <li class="tabs-item active" data-tab="tab-1"><span>Tab1</span></li>
             <li class="tabs-item" data-tab="tab-2"><span>Tab2</span></li>
@@ -195,10 +289,11 @@
         </ul>
         <div id="tab-1" class="tab-contnent--wrap active">
             <div class="tab-contnent">
-                <h3 class="secondary-title tab-content--title">Tabs with soft transitioning effect.1</h3>
+                <h3 class="secondary-title tab-content--title">Tabs with soft transitioning effect.</h3>
                 <div class="tab-content--info">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin
-                        gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum
+                        gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor.
+                        Cum
                         sociis natoque penatibus et magnis dis parturient montes.</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
                 </div>
@@ -210,30 +305,18 @@
         </div>
         <div id="tab-2" class="tab-contnent--wrap">
             <div class="tab-contnent">
-                <h3 class="secondary-title tab-content--title">Tabs with soft transitioning effect.2</h3>
+                <h3 class="secondary-title tab-content--title">Tabs with soft transitioning effect.</h3>
                 <div class="tab-content--info">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin
-                            gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum
-                            sociis natoque penatibus et magnis dis parturient montes.</p>
+                        gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor.
+                        Cum
+                        sociis natoque penatibus et magnis dis parturient montes.</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
                 </div>
                 <button type="button" class="btn btn-orange" name="signup-submit" title="Download">Download</button>
-            </div>
-            <div class="image-wrqp tab-section--img">
-                <img class="image" src="./assets/feature1.png" alt="feature1">
             </div>
         </div>
         <div id="tab-3" class="tab-contnent--wrap">
-            <div class="tab-contnent">
-                <h3 class="secondary-title tab-content--title">Tabs with soft transitioning effect.3</h3>
-                <div class="tab-content--info">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin
-                            gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum
-                            sociis natoque penatibus et magnis dis parturient montes.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
-                </div>
-                <button type="button" class="btn btn-orange" name="signup-submit" title="Download">Download</button>
-            </div>
             <div class="image-wrqp tab-section--img">
                 <img class="image" src="./assets/feature1.png" alt="feature1">
             </div>
@@ -362,77 +445,112 @@
             </li>
         </ul>
     </section>
-    <section class="section">
+    <section class="section carousel-section">
         <div class="primary-content">
             <h2 class="primary-content--title primary-title divider divider-orange divider-center">WHAT OUR CUSTOMERS
                 ARE SAYING</h2>
             <p class="testimonial-content--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
-        <div class="carousel-wrap">
-            <ul class="carousel">
-                <li class="carousel-item">
-                    <div class="testimonial-wrap">
-                        <p class="testimonial">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus
-                            accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</p>
-                    </div>
-                    <div class="author-info">
-                        <div class="author-avatar--wrap">
-                            <img class="author-avatar" src="./assets/avatar.png" alt="name">
+        <div class="testimonials">
+            <div class="carousel-wrap">
+                <ul class="carousel" data-target="carousel">
+                    <li class="carousel-item" data-target="slide">
+                        <div class="testimonial-wrap">
+                            <p class="testimonial">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus
+                                accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</p>
                         </div>
-                        <div class="about-author">
-                            <h3 class="author-name">Jeremy H.</h3>
-                            <p class="occupation">Manager</p>
+                        <div class="author-info">
+                            <div class="author-avatar--wrap">
+                                <img class="author-avatar" src="./assets/avatar.png" alt="name">
+                            </div>
+                            <div class="about-author">
+                                <h3 class="author-name">Jeremy H.</h3>
+                                <p class="occupation">Manager</p>
+                            </div>
                         </div>
-                    </div>
-                </li>
-                <li class="carousel-item">
-                    <div class="testimonial-wrap">
-                        <p class="testimonial">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus
-                            accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</p>
-                    </div>
-                    <div class="author-info">
-                        <div class="author-avatar--wrap">
-                            <img class="author-avatar" src="./assets/avatar.png" alt="name">
+                    </li>
+                    <li class="carousel-item" data-target="slide">
+                        <div class="testimonial-wrap">
+                            <p class="testimonial">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus
+                                accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</p>
                         </div>
-                        <div class="about-author">
-                            <h3 class="author-name">John S.</h3>
-                            <p class="occupation">Freelancer</p>
+                        <div class="author-info">
+                            <div class="author-avatar--wrap">
+                                <img class="author-avatar" src="./assets/avatar.png" alt="name">
+                            </div>
+                            <div class="about-author">
+                                <h3 class="author-name">John S.</h3>
+                                <p class="occupation">Freelancer</p>
+                            </div>
                         </div>
-                    </div>
-                </li>
-                <li class="carousel-item">
-                    <div class="testimonial-wrap">
-                        <p class="testimonial">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus
-                            accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</p>
-                    </div>
-                    <div class="author-info">
-                        <div class="author-avatar--wrap">
-                            <img class="author-avatar" src="./assets/avatar.png" alt="name">
+                    </li>
+                    <li class="carousel-item" data-target="slide">
+                        <div class="testimonial-wrap">
+                            <p class="testimonial">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus
+                                accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</p>
                         </div>
-                        <div class="about-author">
-                            <h3 class="author-name">Susan W.</h3>
-                            <p class="occupation">Photographer</p>
+                        <div class="author-info">
+                            <div class="author-avatar--wrap">
+                                <img class="author-avatar" src="./assets/avatar.png" alt="name">
+                            </div>
+                            <div class="about-author">
+                                <h3 class="author-name">Susan W.</h3>
+                                <p class="occupation">Photographer</p>
+                            </div>
                         </div>
-                    </div>
-                </li>
-                <li class="carousel-item">
-                    <div class="testimonial-wrap">
-                        <p class="testimonial">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus
-                            accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</p>
-                    </div>
-                    <div class="author-info">
-                        <div class="author-avatar--wrap">
-                            <img class="author-avatar" src="./assets/avatar.png" alt="name">
+                    </li>
+                    <li class="carousel-item" data-target="slide">
+                        <div class="testimonial-wrap">
+                            <p class="testimonial">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus
+                                accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</p>
                         </div>
-                        <div class="about-author">
-                            <h3 class="author-name">Jeremy H.</h3>
-                            <p class="occupation">Manager</p>
+                        <div class="author-info">
+                            <div class="author-avatar--wrap">
+                                <img class="author-avatar" src="./assets/avatar.png" alt="name">
+                            </div>
+                            <div class="about-author">
+                                <h3 class="author-name">Jeremy H.</h3>
+                                <p class="occupation">Manager</p>
+                            </div>
                         </div>
-                    </div>
-                </li>
-            </ul>
-            <span class="slide-arrows slide-next"></span>
-            <span class="slide-arrows slide-prev"></span>
+                    </li>
+                    <li class="carousel-item" data-target="slide">
+                        <div class="testimonial-wrap">
+                            <p class="testimonial">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus
+                                accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</p>
+                        </div>
+                        <div class="author-info">
+                            <div class="author-avatar--wrap">
+                                <img class="author-avatar" src="./assets/avatar.png" alt="name">
+                            </div>
+                            <div class="about-author">
+                                <h3 class="author-name">Jeremy H.</h3>
+                                <p class="occupation">Manager</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="carousel-item" data-target="slide">
+                        <div class="testimonial-wrap">
+                            <p class="testimonial">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus
+                                accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</p>
+                        </div>
+                        <div class="author-info">
+                            <div class="author-avatar--wrap">
+                                <img class="author-avatar" src="./assets/avatar.png" alt="name">
+                            </div>
+                            <div class="about-author">
+                                <h3 class="author-name">Jeremy H.</h3>
+                                <p class="occupation">Manager</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <span class="slide-arrows slide-prev" data-action="slideLeft"></span>
+            <span class="slide-arrows slide-next" data-action="slideRight"></span>
+        </div>
+        <div class="arrows-wrap">
+
         </div>
     </section>
     <section class="custom-section paralax">
@@ -453,12 +571,12 @@
             <form>
                 <div class="contact-items">
                     <div class="contact-inputs colums-2">
-                        <input class="input contact-input no-border" type="text" name="name" placeholder="Name">
-                        <input class="input contact-input no-border" type="email" name="email" placeholder="Email">
-                        <input class="input contact-input no-border" type="text" name="subject" placeholder="Subject">
+                        <input class="input contact-input border-bottom" type="text" name="name" placeholder="Name" autocomplete="off">
+                        <input class="input contact-input border-bottom" type="email" name="email" placeholder="Email" autocomplete="off">
+                        <input class="input contact-input border-bottom" type="text" name="subject" placeholder="Subject" autocomplete="off">
                     </div>
                     <div class="contact-message colums-2">
-                        <textarea class="input contact-input no-border" rows="1" placeholder="Message"></textarea>
+                        <textarea class="input message-text border-bottom" placeholder="Message"></textarea>
                     </div>
                 </div>
                 <div class="contact-submit">
@@ -494,20 +612,10 @@
         </ul>
         <p class="copyright">&copy; 2016 PitchBook</p>
     </footer>
-    <script>
-        // Hover Menu
-        $(".menu-link").mouseover(function () {
-            $("#prewie-submenu--bar").css("display", "flex");
-        });
-
-        $(".menu-link").mouseleave(function () {
-            $("#prewie-submenu--bar").css("display", "none");
-        });
-
-
-    </script>
+    <script></script>
 
     <script src="javascript/tabs.js"></script>
+    <script src="javascript/carousel.js"></script>
 </body>
 
 </html>
