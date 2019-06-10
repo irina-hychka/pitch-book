@@ -1,0 +1,225 @@
+@import "variables";
+
+// Laptop Styles
+@media @laptop {
+    .carousel-wrap {
+        height: 290px;
+    }
+
+    .signup-card {
+        width: 40%;
+    }
+    
+    .media-bar {
+        justify-content: flex-start;
+    }
+
+    .media-text--container {
+        max-width: 50%;
+    }
+
+    .social-media-item {
+        margin: 0 2%;
+    }
+}
+
+@media @tablet {
+    .carousel-wrap {
+        height: 294px;
+    }
+
+    .feature-list--item {
+        margin: 0 0 20px;
+    }
+
+    .media-bar {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .social-media {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .media-text--container {
+        width: 100%;
+        max-width: 100%;
+        margin: 0 0 3%;
+        text-align: center;
+    }
+
+    .primary-title {
+        font-size: 25px;
+    }
+
+    .testimonial-wrap, .author-info {
+        margin: 0 5%;
+    }
+    
+    .price-options-item {
+        font-size: 12px;
+    }
+
+    .menu-item:hover .submenu-bar {
+        display: none;
+    }
+
+    // hover
+    .btn:hover,
+    .btn:focus,
+    .menu-link:hover,
+    .menu-link:focus,
+    .tabs-item:hover,
+    .tabs-item:focus,
+    .slide-arrows:hover,
+    .slide-arrows:focus,
+    .price-link:hover,
+    .price-link:focus,
+    .preview-link:hover,
+    .preview-link:focus {
+        opacity: 1;
+    }
+
+    .btn-orange:hover,
+    .btn-orange:focus {
+        border-color: @orange-color;
+        background-color: @orange-color;
+        color: @white-color;
+    }
+}
+
+@media @mobile {
+    .carousel-wrap {
+        height: 304px;
+    }
+
+    .carousel-item {
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    .picture-section,
+    .contact-items {
+        flex-wrap: wrap;
+    }
+
+    .colums-2 {
+        width: 100%;
+    }
+
+    .prices-list,
+    .process-feature {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .prices-list--item,
+    .process-feature--item {
+        width: 90%;
+        margin: 0 0 10%;
+    }
+
+    .process-feature--item {
+        max-width: 90%;
+    }
+
+    .primary-content--text {
+        margin: 0 0 40px;
+    }
+
+    .column-first,
+    .tabs {
+        margin: 0 0 10%;
+    }
+
+    .tabs {
+        display: flex;
+    }
+
+    .tabs-item {
+        margin: 0 1px 0 0;
+    }
+
+    .tabs-section {
+        flex-direction: column;
+    }
+
+    .header {
+        flex-direction: column;
+    }
+
+    .title-section {
+        max-width: 100%;
+        margin: 0 0 10%;
+    }
+
+    .signup-card {
+        width: 70%;
+    }
+
+    .social-media {
+        flex-wrap: wrap;
+    }
+
+    .divider-center::after {
+        left: 39%;
+    }
+
+    .tab-contnent--wrap {
+        flex-direction: column-reverse;
+    }
+
+    .tab-contnent {
+        max-width: 100%;
+    }
+
+    .nav-bar {
+        height: 73px;
+    }
+
+    .menu-list {
+        position: absolute;
+        margin: 0;
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        background-color: @white-color;
+        left: 0;
+        top: 73px;
+        z-index: 3;
+    }
+
+    .menu-list.visible {
+        display: block;
+    }
+
+    .menu-link {
+        color: @dark-blue-color;
+        padding: 20px 40px;
+    }
+
+    .menu-link.active {
+        color: @white-color;
+    }
+    
+    .mobile-menu--icon {
+        display: block;
+        width: 48px;
+        height: 48px;
+        cursor: pointer;
+        background-image: url('../assets/menu-icon.png');
+        background-repeat: no-repeat;
+    }
+}
+
+@media @extra-small {
+    .tabs-item {
+        max-width: 90px;
+        min-width: 90px;
+        height: 90px;
+    }
+}
+
+
