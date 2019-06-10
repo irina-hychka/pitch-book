@@ -20,14 +20,14 @@
     leftButton.addEventListener("click", function () {
         if (offset !== 0) {
             offset += cardWidth + cardMarginRight;
-            carousel.style.transform = `translateX(${offset}px)`;
+            carousel.style.transform = 'translateX(' + offset + 'px)';
         }
     })
 
     rightButton.addEventListener("click", function () {
         if (offset !== maxX) {
             offset -= cardWidth + cardMarginRight;
-            carousel.style.transform = `translateX(${offset}px)`;
+            carousel.style.transform = 'translateX(' + offset + 'px)';
         }
     });
  })();
