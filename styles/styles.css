@@ -1,5 +1,4 @@
-/* Variables */
-/* LESS CSS */
+/* Colors Variables */
 /* Common Styles */
 body {
   background-color: #FFF;
@@ -795,4 +794,7 @@ button {
 }
 .menu-item:hover .submenu-bar {
   display: flex;
+}
+.mobile-menu--icon {
+  display: none;
 }
